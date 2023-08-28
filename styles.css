@@ -9,11 +9,14 @@ body {
     font-size: 16px;
     font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,
         "Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: rgb(218, 218, 208);
 }
 
 nav {
     display: flex;
-    border-bottom: 5px solid rgb(218, 218, 208);
+    background-color: white;
+    margin-bottom: 7px;
+    /*border-bottom: 5px solid rgb(218, 218, 208);*/
 }
 
 nav ul {
@@ -41,11 +44,12 @@ a:hover {
     margin-right: 40px;
 }
 
-.below-nav{
+main ul {
     display: flex;
     list-style: none;
+    background-color: white;
 }
 
-.below-nav li {
+main ul li {
     margin: 20px 10px;
 }
