@@ -16,7 +16,6 @@ nav {
     display: flex;
     background-color: white;
     margin-bottom: 7px;
-    /*border-bottom: 5px solid rgb(218, 218, 208);*/
 }
 
 nav ul {
@@ -44,10 +43,13 @@ a:hover {
     margin-right: 40px;
 }
 
+main {
+    background-color: white;
+}
+
 main ul {
     display: flex;
     list-style: none;
-    background-color: white;
 }
 
 main ul li {
@@ -56,6 +58,5 @@ main ul li {
 
 .ableton-img {
     display: block;
-    width: 50%;
-    margin: 0, auto;
+    margin: 0 auto;
 }
